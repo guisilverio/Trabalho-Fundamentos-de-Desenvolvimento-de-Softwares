@@ -1,0 +1,94 @@
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        background-color: #feec8498;
+    }
+
+    .titulo {
+        color: #ff8c00bb;
+        border: 2px solid;
+        text-align: center;
+        padding: 5px;
+    }
+
+    p.paragrafo01 {
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    p.paragrafo01.centralizado {
+        text-align: center;
+    }
+
+    p.paragrafo01.centralizado.cordefundo {
+        background-color: #ffad60;
+        border: solid 2px;
+        border-color: #ff8c00bb;
+        padding: 10px;
+    }
+
+    #lista>li {
+        margin-bottom: 30px;
+        font-size: 20px
+    }
+
+
+    #Duna {
+        border-radius: 12px;
+    }
+
+    .descrição {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .tabela {
+        display: flex;
+        justify-content: center;
+        border-collapse: collapse;
+    }
+
+    .tabela th {
+        border: solid 2px;
+        border-color: #ff8c00bb;
+        background-color: #ffad60;
+        font-size: 20px;
+    }
+
+    .tabela td {
+        border-radius: 10px;
+        border: solid 2px;
+        border-color: #ff8c00bb;
+    }
+
+    #imgGrecia {
+        border-radius: 12px;
+    }
+
+    #imgLondres {
+        border-radius: 12px;
+    }
+
+    #imgEstadosUnidos {
+        border-radius: 12px;
+    }
+
+    #link:hover {
+        color: blue;
+    }
+
+    #botao {
+        font-size: 20px;
+        background-color: #ff8c00bb;
+        border: solid 2px;
+        margin-bottom: 20px;
+    }
+
+    #textomensagem {
+        font-size: 20px;
+    }
